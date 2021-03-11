@@ -1,0 +1,64 @@
+body{
+	width: 100%;
+}
+
+header{
+	background-color: white;
+	padding: 2%;
+	box-shadow: 0 2px 4px black;
+	height: auto;
+}
+
+.logo_header{
+	height: 30px;
+	margin: auto;
+	display: block;
+}
+
+.localisation{
+	background-color: #eaeaea;
+	height: auto;
+}
+
+.ville{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+p{
+	font-family: 'roboto';
+}
+
+.icone_localisation{
+	margin-right: 4%;
+}
+
+.exploration{
+	background-color: #f6f6f6;
+	padding: 11%;
+	text-align: center;
+}
+
+h1{
+	font-family: roboto, black;
+	font-size: 30px;
+	padding: 0;
+	margin: 0;
+}
+
+.exploration p{
+	font-size: 16px;
+}
+
+.explorer{
+	border-style: none;
+	border-radius: 30px;
+	padding: 7%;
+	font-family: 'roboto';
+	color: white;
+	background: linear-gradient(#FF79DA, #9356DC);
+	box-shadow: 2px 2px 8px grey;
+}
+
+
