@@ -5,7 +5,6 @@ body{
 header{
 	background-color: white;
 	padding: 2%;
-	box-shadow: 0 2px 4px black;
 	height: auto;
 }
 
@@ -18,6 +17,7 @@ header{
 .localisation{
 	background-color: #eaeaea;
 	height: auto;
+	box-shadow: inset 0 7px 0.3em -5px grey;
 }
 
 .ville{
@@ -42,7 +42,7 @@ p{
 
 h1{
 	font-family: roboto, black;
-	font-size: 30px;
+	font-size: 25px;
 	padding: 0;
 	margin: 0;
 }
@@ -54,11 +54,93 @@ h1{
 .explorer{
 	border-style: none;
 	border-radius: 30px;
-	padding: 7%;
+	padding: 6%;
 	font-family: 'roboto';
 	color: white;
 	background: linear-gradient(#FF79DA, #9356DC);
 	box-shadow: 2px 2px 8px grey;
 }
+
+.fonctionnement{
+	margin: 5% 0 5% 0;
+	padding: 5%;
+}
+
+.fonctionnement h1{
+	margin-bottom: 7%;
+}
+
+.boutons_fonctionnement{
+	margin: 0 2% 0 2%;
+}
+
+.boutons_fonctionnement :hover{
+	background-color: #9356DC ;
+}
+
+
+.bouton1{
+	background-color: #f6f6f6;
+	border-radius: 20px;
+	padding: 8%;
+	font-family: 'roboto';
+	color: grey;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 5%;
+}
+
+.choisir{
+	border-style: none;
+	background-color: transparent;
+	font-weight: bold;
+}
+
+.bouton2{
+	background-color: #f6f6f6;
+	border-radius: 20px;
+	padding: 8%;
+	font-family: 'roboto';
+	color: grey;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 5%;
+}
+
+.composez{
+	border-style: none;
+	background-color: transparent;
+	font-weight: bold;
+}
+
+.bouton3{
+	background-color: #f6f6f6;
+	border-radius: 20px;
+	padding: 8%;
+	font-family: 'roboto';
+	color: grey;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 5%;
+}
+
+.degustez{
+	border-style: none;
+	background-color: transparent;
+	font-weight: bold;
+}
+
+.boutons_fonctionnement span{
+	position: absolute;
+	left: 17%;
+}
+
+.boutons_fonctionnement span :hover{
+	color: #9356DC;
+}
+
 
 
