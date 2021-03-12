@@ -62,7 +62,7 @@ h1{
 }
 
 .fonctionnement{
-	margin: 5% 0 5% 0;
+	margin: 5% 0 0 0;
 	padding: 5%;
 }
 
@@ -142,5 +142,39 @@ h1{
 	color: #9356DC;
 }
 
+.restaurant{
+	padding: 5%;
+	background-color: #f6f6f6;
+}
 
+.restaurant h1{
+	margin-bottom: 7%;
+}
+
+footer{
+	background-color: #353535;
+	padding: 5%;
+	color: white;
+}
+
+footer p{
+	font-family: 'shrikhand';
+	font-size: 18px;
+}
+
+footer ul{
+	list-style: none;
+	padding: 0;
+	font-family: 'roboto';
+	font-size: 15px;
+}
+
+footer li{
+	margin-bottom: 2%;
+
+}
+
+footer i{
+	margin-right: 4%;
+}
 
