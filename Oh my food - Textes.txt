@@ -13,6 +13,7 @@ Oeuf au plat
 Assaisonné à la truffe sur lit de caviar
 20€
 
+----
 
 Plats
 Filet de boeuf aux herbes
@@ -26,6 +27,8 @@ Parmentier de queue de boeuf
 Filet de turbot
 Aux agrumes
 44€
+
+----
         
 Desserts
 Paris-Brest
@@ -40,7 +43,7 @@ Mousse au chocolat
 Au piment d'Espelette et à la truffe noire
 23€  
   
----     
+-----------------------------------------------------------------------------   
 
 Le délice des sens
 
@@ -56,6 +59,8 @@ Et sa farandole de petits légumes
 Velouté de cèpes 
 Aux truffes
 20€
+
+----
         
 Plats
 Poulet rôti aux herbes de Provence 
@@ -70,6 +75,8 @@ Côte de boeuf Angus
 Et sa purée de panais
 44€
 
+----
+
 Desserts
 Farandole de desserts
 Du chef
@@ -83,7 +90,7 @@ Tiramisu
 À la noisette
 23€
 
----
+-----------------------------------------------------------------------------   
 
 La note enchantée
 
@@ -103,6 +110,8 @@ Mariné aux zestes d'orange
 Foie gras de canard cuit entier
 Confiture de figue et pain toasté
 35€
+
+----
         
 Plats
 Noix de coquilles Saint-Jacques
@@ -117,6 +126,8 @@ Mijoté de queue de boeuf
 Et riz sauvage aux zestes de citron
 44€
 
+----
+
 Desserts
 Macaron noisette et chocolat
 Glace au caramel brun et sel de Guérande
@@ -130,7 +141,7 @@ Tarte au citron meringuée
 Déstructurée
 23€
 
----
+-----------------------------------------------------------------------------   
 
 À la française
 
@@ -147,6 +158,8 @@ Soupe à l'oignon
 Revisitée
 20€
 
+----
+
 Plats
 Coquilles Saint-Jacques
 Accompagnées d'une purée de panais
@@ -159,6 +172,8 @@ Et parmentier de pommes de terre
 Pigeonneau d’Ille-et-Vilaine
 Sur son lit de gnocchis aux légumes
 44€
+
+----
 
 Desserts
 Pétales de violettes glacés

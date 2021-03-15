@@ -364,4 +364,12 @@ footer a{
 }
 
 
+/*-------A LA FRANCAISE------*/
 
+.menu_a_la_francaise img{
+	width: 100%;
+}
+
+h2{
+	font-family: 'shrikhand'
+}
