@@ -69,6 +69,10 @@ h1{
 	box-shadow: 2px 2px 8px grey;
 }
 
+.explorer:hover{
+	box-shadow: 2px 4px 7px grey;
+}
+
 /*SECTION FONCTIONNEMENT*/
 
 .fonctionnement{
@@ -84,11 +88,11 @@ h1{
 	margin: 0 2% 0 2%;
 }
 
-.boutons_fonctionnement :hover{
-	background-color: rgba(147, 86, 220, 0.1);
-
+.boutons_fonctionnement button{
+	border-style: none;
+	background-color: transparent;
+	font-weight: bold;
 }
-
 
 .bouton1{
 	background-color: #f6f6f6;
@@ -103,10 +107,20 @@ h1{
 	box-shadow: 0px 5px 9px -6px grey;
 }
 
-.choisir{
-	border-style: none;
-	background-color: transparent;
-	font-weight: bold;
+.bouton1:hover{
+	background-color: rgba(147, 86, 220, 0.1);
+	box-shadow: 0px 5px 9px -4px grey;
+}
+
+.bouton1 p{
+	background-color: #9356DC;
+	color: white;
+	padding: 2%;
+	border-radius: 25px;
+	position: absolute;
+	left: 4%;
+	height: 14px;
+	width: 11px;
 }
 
 .bouton2{
@@ -122,10 +136,20 @@ h1{
 	box-shadow: 0px 5px 9px -6px grey;
 }
 
-.composez{
-	border-style: none;
-	background-color: transparent;
-	font-weight: bold;
+.bouton2:hover{
+	background-color: rgba(147, 86, 220, 0.1);
+	box-shadow: 0px 5px 9px -4px grey;
+}
+
+.bouton2 p{
+	background-color: #9356DC;
+	color: white;
+	padding: 2%;
+	border-radius: 25px;
+	position: absolute;
+	left: 4%;
+	height: 14px;
+	width: 11px;
 }
 
 .bouton3{
@@ -141,18 +165,29 @@ h1{
 	box-shadow: 0px 5px 9px -6px grey;
 }
 
-.degustez{
-	border-style: none;
-	background-color: transparent;
-	font-weight: bold;
+.bouton3:hover{
+	background-color: rgba(147, 86, 220, 0.1);
+	box-shadow: 0px 5px 9px -4px grey;
 }
 
-.boutons_fonctionnement span{
+.bouton3 p{
+	background-color: #9356DC;
+	color: white;
+	padding: 2%;
+	border-radius: 25px;
+	position: absolute;
+	left: 4%;
+	height: 14px;
+	width: 11px;
+}
+
+.boutons_fonctionnement i{
 	position: absolute;
 	left: 17%;
+	color: grey;
 }
 
-.boutons_fonctionnement span :hover{
+.boutons_fonctionnement i:hover{
 	color: #9356DC;
 }
 
@@ -195,10 +230,12 @@ h1{
 }
 
 .palette_du_gout button{
-	background-color: green;
+	background-color: #99E2D0;
 	border-style: none;
 	font-family: 'roboto';
-	color: white;
+	font-weight: bold;
+	color: #008766;
+	padding: 2%;
 	position: relative;
 	bottom: 65%;
 	left: 75%;
@@ -210,7 +247,7 @@ h1{
 	list-style: none;
 	padding: 3%;
 	position: relative;
-	bottom: 8%;
+	bottom: 11%;
 }
 
 .texte_carte p{
@@ -218,7 +255,8 @@ h1{
 }
 
 .texte_carte span{
-	margin-left: 45%;
+	position: absolute;
+	right: 18px;
 }
 
 .note_enchantee{
@@ -237,10 +275,12 @@ h1{
 }
 
 .note_enchantee button{
-	background-color: green;
+	background-color: #99E2D0;
 	border-style: none;
 	font-family: 'roboto';
-	color: white;
+	font-weight: bold;
+	color: #008766;
+	padding: 2%;
 	position: relative;
 	bottom: 65%;
 	left: 75%;
