@@ -267,11 +267,6 @@ h1{
 	flex-grow: 1;
 }
 
-.icone_coeur{
-	position: absolute;
-	right: 3%;
-}
-
 .icone_coeur_plein{
 	opacity: 0;
 }
@@ -430,10 +425,17 @@ h2{
 	align-items: center;
 }
 
-.titre span{
+.coeurs span{
 	position: absolute;
-	right: 0px;
-	margin-right: 8%;
+	right: 5%;
+}
+
+.coeurs .icone_coeur{
+	opacity: 1;
+}
+
+.coeurs .icone_coeur:hover{
+	opacity: 0;
 }
 
 h3{
