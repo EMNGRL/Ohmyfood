@@ -113,6 +113,10 @@ h1{
 	box-shadow: 0px 5px 9px -4px grey;
 }
 
+.bouton1:hover .choisir > .fas{
+	color: #9356DC;
+}
+
 .bouton1 p{
 	background-color: #9356DC;
 	color: white;
@@ -142,6 +146,10 @@ h1{
 	box-shadow: 0px 5px 9px -4px grey;
 }
 
+.bouton2:hover .composez > .fas{
+	color: #9356DC;
+}
+
 .bouton2 p{
 	background-color: #9356DC;
 	color: white;
@@ -169,6 +177,10 @@ h1{
 .bouton3:hover{
 	background-color: rgba(147, 86, 220, 0.1);
 	box-shadow: 0px 5px 9px -4px grey;
+}
+
+.bouton3:hover .degustez > .fas{
+	color: #9356DC;
 }
 
 .bouton3 p{
@@ -220,6 +232,7 @@ h1{
 	border-radius: 25px;
 	box-shadow: 0px 5px 7px -4px grey;
 	height: 280px;
+	position: relative;
 }
 
 .palette_du_gout img{
@@ -237,9 +250,9 @@ h1{
 	font-weight: bold;
 	color: #008766;
 	padding: 2%;
-	position: relative;
-	bottom: 65%;
-	left: 75%;
+	position: absolute;
+	top: 5%;
+	right: 5%;
 }
 
 .texte_carte{
@@ -247,22 +260,15 @@ h1{
 	align-items: center;
 	list-style: none;
 	padding: 3%;
-	position: relative;
-	bottom: 11%;
 }
 
 .texte_carte p{
 	margin: 0;
+	flex-grow: 1;
 }
 
-.texte_carte span{
-	position: absolute;
-	right: 18px;
-}
-
-.texte_carte span:hover{
-	background: linear-gradient(#9356DC,#FF79DA);
-	background-clip: content-box;
+.icone_coeur_plein{
+	background: linear-gradient(#FF79DA, #9356DC);
 }
 
 .note_enchantee{
@@ -270,6 +276,7 @@ h1{
 	border-radius: 25px;
 	box-shadow: 0px 5px 7px -4px grey;
 	height: 280px;
+	position: relative;
 }
 
 .note_enchantee img{
@@ -287,9 +294,9 @@ h1{
 	font-weight: bold;
 	color: #008766;
 	padding: 2%;
-	position: relative;
-	bottom: 65%;
-	left: 75%;
+	position: absolute;
+	top: 5%;
+	right: 5%;
 }
 
 .a_la_francaise{
@@ -297,6 +304,7 @@ h1{
 	border-radius: 25px;
 	box-shadow: 0px 5px 7px -4px grey;
 	height: 280px;
+	position: relative;
 }
 
 .a_la_francaise img{
@@ -307,20 +315,12 @@ h1{
 	object-fit: cover;
 }
 
-.a_la_francaise .texte_carte{
-	position: relative;
-	bottom: 0%;
-}
-
-.a_la_francaise span{
-	margin-left: 55%;
-}
-
 .delice_des_sens{
 	background :white;
 	border-radius: 25px;
 	box-shadow: 0px 5px 7px -4px grey;
 	height: 280px;
+	position: relative;
 }
 
 .delice_des_sens img{
@@ -329,11 +329,6 @@ h1{
 	border-top-right-radius: 25px;
 	border-top-left-radius: 25px;
 	object-fit: cover;
-}
-
-.delice_des_sens .texte_carte{
-	position: relative;
-	bottom: 0%;
 }
 
 /*FOOTER*/
@@ -379,11 +374,15 @@ header{
 	align-items: center;
 }
 
-header .retour{
+.retour{
 	position: absolute;
 	left: 0;
 	margin-left: 5%;
 } 
+
+.retour a{
+	color: black;
+}
 
 /*IMAGE RESTAURANT*/
 
@@ -617,10 +616,26 @@ h3{
 	opacity: 0.90;
 }
 
+/*FOOTER*/ 
+
+.footer_a_la_francaise{
+	position: relative;
+	bottom: 55px;
+}
+
+/*LA PALETTE DU GOUT*/ 
+
 .menu_la_palette_du_gout img{
 	width: 100%;
 	object-fit: cover;
 }
+
+.footer_la_palette_du_gout{
+	position: relative;
+	bottom: 55px;
+}
+
+/*LA NOTE ENCHANTEE*/ 
 
 .menu_la_note_enchantee img{
 	width: 100%;
@@ -628,7 +643,19 @@ h3{
 	object-fit: cover;
 }
 
+.footer_la_note_enchantee{
+	position: relative;
+	bottom: 55px;
+}
+
+/*LE DELICE DES SENS*/ 
+
 .menu_le_delice_des_sens img{
 	width: 100%;
 	object-fit: cover;
+}
+
+.footer_le_delice_des_sens{
+	position: relative;
+	bottom: 55px;
 }
