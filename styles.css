@@ -243,7 +243,7 @@ h1{
 	object-fit: cover;
 }
 
-.palette_du_gout button{
+.palette_du_gout aside{
 	background-color: #99E2D0;
 	border-style: none;
 	font-family: 'roboto';
@@ -267,8 +267,16 @@ h1{
 	flex-grow: 1;
 }
 
+.icone_coeur{
+	position: absolute;
+	right: 3%;
+}
+
 .icone_coeur_plein{
-	background: linear-gradient(#FF79DA, #9356DC);
+}
+
+.icone_coeur_plein :hover{
+	color: red;
 }
 
 .note_enchantee{
@@ -287,7 +295,7 @@ h1{
 	object-fit: cover;
 }
 
-.note_enchantee button{
+.note_enchantee aside{
 	background-color: #99E2D0;
 	border-style: none;
 	font-family: 'roboto';
@@ -416,11 +424,6 @@ h2{
 	position: absolute;
 	right: 0px;
 	margin-right: 8%;
-}
-
-.titre span:hover{
-	background: linear-gradient(#9356DC,#FF79DA);
-	background-clip: content-box;
 }
 
 h3{
