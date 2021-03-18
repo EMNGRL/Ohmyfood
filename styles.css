@@ -430,12 +430,14 @@ h2{
 	right: 5%;
 }
 
-.coeurs .icone_coeur{
-	opacity: 1;
+span .icone_coeur{
+	visibility: visible;
+	position: absolute;
+	right: 5%;
 }
 
-.coeurs .icone_coeur:hover{
-	opacity: 0;
+.icone_coeur:hover{
+	visibility: hidden;
 }
 
 h3{
@@ -455,9 +457,19 @@ h3{
 	margin-bottom: 10%;
 }
 
+.texte h4{
+	font-family: 'roboto';
+	margin :0;
+}
+
+.texte p{
+	margin: 0;
+	font-size: 85%;
+}
+
 .entree1{
 	background-color: white;
-	padding:2%;
+	padding:5%;
 	display: flex;
 	align-items: flex-end;
 	border-radius: 15px;
@@ -470,7 +482,7 @@ h3{
 
 .entree2{
 	background-color: white;
-	padding:2%;
+	padding:5%;
 	display: flex;
 	align-items: flex-end;
 	border-radius: 15px;
@@ -483,7 +495,7 @@ h3{
 
 .entree3{
 	background-color: white;
-	padding:2%;
+	padding:5%;
 	display: flex;
 	align-items: flex-end;
 	border-radius: 15px;
@@ -496,7 +508,7 @@ h3{
 
 .entree4{
 	background-color: white;
-	padding:2%;
+	padding:5%;
 	display: flex;
 	align-items: flex-end;
 	border-radius: 15px;
@@ -519,7 +531,7 @@ h3{
 
 .plat1{
 	background-color: white;
-	padding:2%;
+	padding:5%;
 	display: flex;
 	align-items: flex-end;
 	border-radius: 15px;
@@ -532,7 +544,7 @@ h3{
 
 .plat2{
 	background-color: white;
-	padding:2%;
+	padding:5%;
 	display: flex;
 	align-items: flex-end;
 	border-radius: 15px;
@@ -545,7 +557,7 @@ h3{
 
 .plat3{
 	background-color: white;
-	padding:2%;
+	padding:5%;
 	display: flex;
 	align-items: flex-end;
 	border-radius: 15px;
@@ -568,7 +580,7 @@ h3{
 
 .dessert1{
 	background-color: white;
-	padding:2%;
+	padding:5%;
 	display: flex;
 	align-items: flex-end;
 	border-radius: 15px;
@@ -581,7 +593,7 @@ h3{
 
 .dessert2{
 	background-color: white;
-	padding:2%;
+	padding:5%;
 	display: flex;
 	align-items: flex-end;
 	border-radius: 15px;
@@ -594,7 +606,7 @@ h3{
 
 .dessert3{
 	background-color: white;
-	padding:2%;
+	padding:5%;
 	display: flex;
 	align-items: flex-end;
 	border-radius: 15px;
