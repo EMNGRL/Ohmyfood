@@ -179,10 +179,6 @@ h1{
 	box-shadow: 0px 5px 9px -4px grey;
 }
 
-.bouton3:hover .degustez > .fas{
-	color: #9356DC;
-}
-
 .bouton3 p{
 	background-color: #9356DC;
 	color: white;
@@ -201,6 +197,10 @@ h1{
 }
 
 .boutons_fonctionnement i:hover{
+	color: #9356DC;
+}
+
+.bouton3:hover .degustez > .fas{
 	color: #9356DC;
 }
 
@@ -254,30 +254,6 @@ h1{
 	top: 5%;
 	right: 5%;
 }
-
-.texte_carte{
-	display: flex;
-	align-items: center;
-	list-style: none;
-	padding: 3%;
-}
-
-.texte_carte p{
-	margin: 0;
-	flex-grow: 1;
-}
-
-.icone_coeur_plein{
-	opacity: 0;
-}
-
-.icone_coeur_plein:hover{
-	opacity: 1;
-	background: linear-gradient(#FF79DA, #9356DC);
-	-webkit-background-clip: text;
-	color: transparent;
-}
-
 
 .note_enchantee{
 	background :white;
@@ -337,6 +313,49 @@ h1{
 	border-top-right-radius: 25px;
 	border-top-left-radius: 25px;
 	object-fit: cover;
+}
+
+/*COEUR FAVORIS*/
+
+.texte_carte{
+	display: flex;
+	align-items: center;
+	list-style: none;
+	padding: 3%;
+}
+
+.texte_carte p{
+	margin: 0;
+	flex-grow: 1;
+}
+
+.coeurs{
+	display: flex;
+	align-items: center;
+}
+
+.coeurs span{
+	position: absolute;
+	right: 5%;
+}
+
+.icone_coeur i{
+	visibility: visible;
+}
+
+.icone_coeur i:hover{
+	visibility: hidden;
+}
+
+.icone_coeur_plein{
+	opacity: 0;
+}
+
+.icone_coeur_plein:hover{
+	opacity: 1;
+	background: linear-gradient(#FF79DA, #9356DC);
+	-webkit-background-clip: text;
+	color: transparent;
 }
 
 /*FOOTER*/
@@ -420,25 +439,6 @@ h2{
 	font-size: 27px;
 }
 
-.coeurs{
-	display: flex;
-	align-items: center;
-}
-
-.coeurs span{
-	position: absolute;
-	right: 5%;
-}
-
-.icone_coeur{
-	visibility: visible;
-	position: absolute;
-	right: 5%;
-}
-
-.icone_coeur:hover{
-	visibility: hidden;
-}
 
 h3{
 	font-family: 'roboto';
@@ -465,6 +465,10 @@ h3{
 .texte p{
 	margin: 0;
 	font-size: 85%;
+	width: 250px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 .entree1{
@@ -473,6 +477,7 @@ h3{
 	display: flex;
 	border-radius: 15px;
 	box-shadow: 0px 5px 7px -4px grey;
+	position: relative;
 }
 
 .entree1:hover{
@@ -485,6 +490,7 @@ h3{
 	display: flex;
 	border-radius: 15px;
 	box-shadow: 0px 5px 7px -4px grey;
+	position: relative;
 }
 
 .entree2:hover{
@@ -497,6 +503,7 @@ h3{
 	display: flex;
 	border-radius: 15px;
 	box-shadow: 0px 5px 7px -4px grey;
+	position: relative;
 }
 
 .entree3:hover{
@@ -509,6 +516,7 @@ h3{
 	display: flex;
 	border-radius: 15px;
 	box-shadow: 0px 5px 7px -4px grey;
+	position: relative;
 }
 
 .entree4:hover{
@@ -523,6 +531,7 @@ h3{
 	grid-row-gap: 20px;
 	flex-wrap: wrap;
 	margin-bottom: 10%;
+
 }
 
 .plat1{
@@ -531,6 +540,7 @@ h3{
 	display: flex;
 	border-radius: 15px;
 	box-shadow: 0px 5px 7px -4px grey;
+	position: relative;
 }
 
 .plat1:hover{
@@ -543,6 +553,7 @@ h3{
 	display: flex;
 	border-radius: 15px;
 	box-shadow: 0px 5px 7px -4px grey;
+	position: relative;
 }
 
 .plat2:hover{
@@ -555,6 +566,7 @@ h3{
 	display: flex;
 	border-radius: 15px;
 	box-shadow: 0px 5px 7px -4px grey;
+	position: relative;
 }
 
 .plat3:hover{
@@ -577,6 +589,7 @@ h3{
 	display: flex;
 	border-radius: 15px;
 	box-shadow: 0px 5px 7px -4px grey;
+	position: relative;
 }
 
 .dessert1:hover{
@@ -589,6 +602,7 @@ h3{
 	display: flex;
 	border-radius: 15px;
 	box-shadow: 0px 5px 7px -4px grey;
+	position: relative;
 }
 
 .dessert2:hover{
@@ -601,6 +615,7 @@ h3{
 	display: flex;
 	border-radius: 15px;
 	box-shadow: 0px 5px 7px -4px grey;
+	position: relative;
 }
 
 .dessert3:hover{
@@ -612,6 +627,29 @@ h3{
 .prix{
 	position: absolute;
 	right: 10%;
+}
+
+/*BOUTON AJOUTER*/
+
+.ajouter{
+	background-color: #99E2D0;
+	padding : 5%;
+	height: 2.15em;
+	width: 2em;
+	color: white;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: 0%;
+	right: 0%;
+	opacity: 0;
+}
+
+.ajouter:active{
+	opacity: 1;
 }
 
 /*BOUTON COMMANDER*/
