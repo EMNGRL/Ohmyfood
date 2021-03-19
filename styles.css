@@ -648,9 +648,10 @@ h3{
 	opacity: 0;
 }
 
-.ajouter:active{
+.ajouter:hover{
 	opacity: 1;
 }
+
 
 /*BOUTON COMMANDER*/
 
