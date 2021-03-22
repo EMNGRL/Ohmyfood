@@ -629,12 +629,18 @@ h3{
 	right: 10%;
 }
 
+.prix:hover{
+	position: absolute;
+	right: 20%;
+}
+
+
 /*BOUTON AJOUTER*/
 
 .ajouter{
 	background-color: #99E2D0;
 	padding : 5%;
-	height: 2.15em;
+	height: 2.13em;
 	width: 2em;
 	color: white;
 	border-top-right-radius: 15px;
@@ -649,6 +655,42 @@ h3{
 }
 
 .ajouter:hover{
+	opacity: 1;
+}
+
+.entree1:hover > .ajouter{
+	opacity: 1;
+}
+
+.entree2:hover > .ajouter{
+	opacity: 1;
+}
+
+.entree3:hover > .ajouter{
+	opacity: 1;
+}
+
+.plat1:hover > .ajouter{
+	opacity: 1;
+}
+
+.plat2:hover > .ajouter{
+	opacity: 1;
+}
+
+.plat3:hover > .ajouter{
+	opacity: 1;
+}
+
+.dessert1:hover > .ajouter{
+	opacity: 1;
+}
+
+.dessert2:hover > .ajouter{
+	opacity: 1;
+}
+
+.dessert3:hover > .ajouter{
 	opacity: 1;
 }
 
