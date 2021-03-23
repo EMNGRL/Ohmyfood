@@ -353,6 +353,7 @@ h1{
 	-webkit-background-clip: text;
 	color: transparent;
 	transform: scale(1.2);
+	transition: all 0.3s cubic-bezier(0.42,0,0.73,2.29)
 }
 
 
