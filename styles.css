@@ -343,11 +343,11 @@ h1{
 	right: 5%;
 }
 
-.icone_coeur i{
+.icone_coeur{
 	visibility: visible;
 }
 
-.icone_coeur i:hover{
+.icone_coeur:hover{
 	visibility: hidden;
 }
 
@@ -430,7 +430,7 @@ header{
 	border-top-right-radius: 25px;
 	border-top-left-radius: 25px;
 	position: relative;
-	bottom: 55px;
+	margin-top: -8%;
 }
 
 .titre{
@@ -718,23 +718,12 @@ h3{
 	opacity: 0.90;
 }
 
-/*FOOTER*/ 
-
-.footer_a_la_francaise{
-	position: relative;
-	bottom: 55px;
-}
 
 /*LA PALETTE DU GOUT*/ 
 
 .menu_la_palette_du_gout img{
 	width: 100%;
 	object-fit: cover;
-}
-
-.footer_la_palette_du_gout{
-	position: relative;
-	bottom: 55px;
 }
 
 /*LA NOTE ENCHANTEE*/ 
@@ -745,19 +734,10 @@ h3{
 	object-fit: cover;
 }
 
-.footer_la_note_enchantee{
-	position: relative;
-	bottom: 55px;
-}
 
 /*LE DELICE DES SENS*/ 
 
 .menu_le_delice_des_sens img{
 	width: 100%;
 	object-fit: cover;
-}
-
-.footer_le_delice_des_sens{
-	position: relative;
-	bottom: 55px;
 }
