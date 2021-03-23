@@ -340,11 +340,7 @@ h1{
 }
 
 .icone_coeur{
-	visibility: visible;
-}
-
-.icone_coeur:hover{
-	visibility: hidden;
+	opacity: 1;
 }
 
 .icone_coeur_plein{
@@ -356,7 +352,9 @@ h1{
 	background: linear-gradient(#FF79DA, #9356DC);
 	-webkit-background-clip: text;
 	color: transparent;
+	transform: scale(1.2);
 }
+
 
 /*FOOTER*/
 
