@@ -339,10 +339,6 @@ h1{
 	right: 5%;
 }
 
-.icone_coeur{
-	opacity: 1;
-}
-
 .icone_coeur_plein{
 	opacity: 0;
 }
@@ -353,7 +349,7 @@ h1{
 	-webkit-background-clip: text;
 	color: transparent;
 	transform: scale(1.2);
-	transition: all 0.3s cubic-bezier(0.42,0,0.73,2.29)
+	transition: all 0.3s cubic-bezier(0.42,0,1.0,1.5)
 }
 
 
