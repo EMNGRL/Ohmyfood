@@ -452,6 +452,7 @@ h3{
 	margin-bottom: 10%;
 }
 
+
 .texte h4{
 	font-family: 'roboto';
 	margin :0;
@@ -633,60 +634,65 @@ h3{
 /*BOUTON AJOUTER*/
 
 .ajouter{
-	background-color: #99E2D0;
-	padding : 5%;
-	height: 2.13em;
-	width: 2em;
 	color: white;
+	background-color: #99E2D0;
 	border-top-right-radius: 15px;
 	border-bottom-right-radius: 15px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	position: absolute;
-	top: 0%;
-	right: 0%;
-	opacity: 0;
+	right: -1px;
+	top: 0;
+	height: 100%;
+	width: 20%;
+	transform-origin: right;
+	transform: scaleX(0);
+	transition: all 0.7s;
 }
 
 .ajouter:hover{
-	opacity: 1;
+	transform: scaleX(1);
 }
 
 .entree1:hover > .ajouter{
-	opacity: 1;
+	transform: scaleX(1);
 }
 
 .entree2:hover > .ajouter{
-	opacity: 1;
+	transform: scaleX(1);
 }
 
 .entree3:hover > .ajouter{
-	opacity: 1;
+	transform: scaleX(1);
+}
+
+.entree4:hover > .ajouter{
+	transform: scaleX(1);
 }
 
 .plat1:hover > .ajouter{
-	opacity: 1;
+	transform: scaleX(1);
 }
 
 .plat2:hover > .ajouter{
-	opacity: 1;
+	transform: scaleX(1);
 }
 
 .plat3:hover > .ajouter{
-	opacity: 1;
+	transform: scaleX(1);
 }
 
 .dessert1:hover > .ajouter{
-	opacity: 1;
+	transform: scaleX(1);
 }
 
 .dessert2:hover > .ajouter{
-	opacity: 1;
+	transform: scaleX(1);
 }
 
 .dessert3:hover > .ajouter{
-	opacity: 1;
+	transform: scaleX(1);
 }
 
 
