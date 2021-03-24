@@ -467,6 +467,47 @@ h3{
 	text-overflow: ellipsis;
 }
 
+.entree1:hover .texte p{
+	width: 200px;
+}
+
+.entree2:hover .texte p{
+	width: 200px;
+}
+
+.entree3:hover .texte p{
+	width: 200px;
+}
+
+.entree4:hover .texte p{
+	width: 200px;
+}
+
+.plat1:hover .texte p{
+	width: 200px;
+}
+
+.plat2:hover .texte p{
+	width: 200px;
+}
+
+.plat3:hover .texte p{
+	width: 200px;
+}
+
+.dessert1:hover .texte p{
+	width: 200px;
+}
+
+.dessert2:hover .texte p{
+	width: 200px;
+}
+
+.dessert3:hover .texte p{
+	width: 200px;
+}
+
+
 .entree1{
 	background-color: white;
 	padding:5%;
