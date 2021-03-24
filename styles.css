@@ -625,11 +625,65 @@ h3{
 	right: 10%;
 }
 
-.prix:hover{
+.entree1:hover .prix{
 	position: absolute;
-	right: 20%;
+	right: 22%;
+	transition: all 0.7s;
 }
 
+.entree2:hover .prix{
+	position: absolute;
+	right: 22%;
+	transition: all 0.7s;
+}
+
+.entree3:hover .prix{
+	position: absolute;
+	right: 22%;
+	transition: all 0.7s;
+}
+
+.entree4:hover .prix{
+	position: absolute;
+	right: 22%;
+	transition: all 0.7s;
+}
+
+.plat1:hover .prix{
+	position: absolute;
+	right: 22%;
+	transition: all 0.7s;
+}
+
+.plat2:hover .prix{
+	position: absolute;
+	right: 22%;
+	transition: all 0.7s;
+}
+
+.plat3:hover .prix{
+	position: absolute;
+	right: 22%;
+	transition: all 0.7s;
+}
+
+.dessert1:hover .prix{
+	position: absolute;
+	right: 22%;
+	transition: all 0.7s;
+}
+
+.dessert2:hover .prix{
+	position: absolute;
+	right: 22%;
+	transition: all 0.7s;
+}
+
+.dessert3:hover .prix{
+	position: absolute;
+	right: 22%;
+	transition: all 0.7s;
+}
 
 /*BOUTON AJOUTER*/
 
