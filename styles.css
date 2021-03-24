@@ -456,6 +456,50 @@ h3{
 .texte h4{
 	font-family: 'roboto';
 	margin :0;
+	width: 300px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.entree1:hover .texte h4{
+	width: 190px;
+}
+
+.entree2:hover .texte h4{
+	width: 190px;
+}
+
+.entree3:hover .texte h4{
+	width: 190px;
+}
+
+.entree4:hover .texte h4{
+	width: 190px;
+}
+
+.plat1:hover .texte h4{
+	width: 190px;
+}
+
+.plat2:hover .texte h4{
+	width: 190px;
+}
+
+.plat3:hover .texte h4{
+	width: 190px;
+}
+
+.dessert1:hover .texte h4{
+	width: 190px;
+}
+
+.dessert2:hover .texte h4{
+	width: 190px;
+}
+
+.dessert3:hover .texte h4{
+	width: 190px;
 }
 
 .texte p{
