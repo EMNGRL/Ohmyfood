@@ -655,6 +655,61 @@ h3{
 	transform: scaleX(1);
 }
 
+.icone_ajouter:hover{
+	transform: rotate(360deg);
+	transition-duration: 0.9s;
+}
+
+.entree1:hover .fas {
+	transform: rotate(360deg);
+	transition-duration: 0.5s;
+}
+
+.entree2:hover .fas {
+	transform: rotate(360deg);
+	transition-duration: 0.5s;
+}
+
+.entree3:hover .fas {
+	transform: rotate(360deg);
+	transition-duration: 0.5s;
+}
+
+.entree4:hover .fas {
+	transform: rotate(360deg);
+	transition-duration: 0.5s;
+}
+
+.plat1:hover .fas {
+	transform: rotate(360deg);
+	transition-duration: 0.5s;
+}
+
+.plat2:hover .fas {
+	transform: rotate(360deg);
+	transition-duration: 0.5s;
+}
+
+.plat3:hover .fas {
+	transform: rotate(360deg);
+	transition-duration: 0.5s;
+}
+
+.dessert1:hover .fas {
+	transform: rotate(360deg);
+	transition-duration: 0.5s;
+}
+
+.dessert2:hover .fas {
+	transform: rotate(360deg);
+	transition-duration: 0.5s;
+}
+
+.dessert3:hover .fas {
+	transform: rotate(360deg);
+	transition-duration: 0.5s;
+}
+
 .entree1:hover > .ajouter{
 	transform: scaleX(1);
 }
