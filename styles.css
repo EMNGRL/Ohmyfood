@@ -6,6 +6,43 @@ p{
 	font-family: 'roboto';
 }
 
+/*LOADING SPINNER*/
+
+.loading{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(255,255,255,0.8);
+	z-index: 1;
+}
+
+.loading-spinner{
+	display: flex;
+	justify-content: center;
+	margin-top: 90%;
+}
+
+.rond-1{
+	background-color: #9356DC;
+	padding:3%;
+	border-radius: 25px;
+	margin: 2%;
+}
+
+.rond-2{
+	background-color: #FF79DA;
+	padding:3%;
+	border-radius: 25px;
+	margin: 2%;
+}
+
+.rond-3{
+	background-color: #99E2D0;
+	padding:3%;
+	border-radius: 25px;
+	margin: 2%;
+}
+
 /*-------ACCUEIL------*/
 
 /*HEADER*/
