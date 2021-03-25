@@ -27,6 +27,8 @@ p{
 	padding:3%;
 	border-radius: 25px;
 	margin: 2%;
+	animation: pop 0.6s -0.14s ease-in-out;
+
 }
 
 .rond-2{
@@ -34,13 +36,31 @@ p{
 	padding:3%;
 	border-radius: 25px;
 	margin: 2%;
+	animation: pop 0.7s -0.15s ease-in-out;
 }
+
 
 .rond-3{
 	background-color: #99E2D0;
 	padding:3%;
 	border-radius: 25px;
 	margin: 2%;
+	animation: pop 0.8s -0.16s ease-in-out;
+}
+
+@keyframes pop{
+	33% {
+	    -webkit-transform: translateY(10px);
+	    transform: translateY(10px);
+	}
+	66% {
+	    -webkit-transform: translateY(-10px);
+	    transform: translateY(-10px);
+	}
+	100% {
+	    -webkit-transform: translateY(0);
+	    transform: translateY(0);
+	}
 }
 
 /*-------ACCUEIL------*/
