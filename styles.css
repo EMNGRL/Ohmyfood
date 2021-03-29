@@ -1097,11 +1097,6 @@ header{
 	margin: 0 10% 0 10%;
 }
 
-header span{
-	visibility: hidden;
-}
-
-
 .logo_header{
 	height: 50px;
 }
@@ -1257,8 +1252,10 @@ h1{
 	border-radius: 25px;
 	width: 30%;
 	height: 700px;
-	margin-top: -43.5%;
-	margin-left: 33%;
+	margin-top: 0%;
+	position: absolute;
+	top: 18%;
+	left: 33%;
 	overflow-y: scroll;
 }
 
