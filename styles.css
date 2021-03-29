@@ -1269,19 +1269,23 @@ footer{
 }
 
 footer p{
-	font-size: 35px;
+	font-size: 30px;
+	margin-top: 0;
 }
 
 footer ul{
 	font-size: 15px;
+	display: flex;
+	align-items: center;
+	margin-top: 5%;
 }
 
 footer li{
-	margin-bottom: 1%;
+	width: 100%;
 }
 
 footer i{
-	margin-right: 0.5%;
+	margin-right: 3%;
 }
 
 
@@ -1485,5 +1489,27 @@ header{
 	width: 49%;
 	margin: 2% 11% 10% 23%;
 }
+
+footer{
+	padding: 2%;
+	text-align : center;
+}
+
+footer p{
+	font-size: 30px;
+}
+
+footer ul{
+	font-size: 15px;
+}
+
+footer li{
+	margin-bottom: 1%;
+}
+
+footer i{
+	margin-right: 0.5%;
+}
+
 
 }
