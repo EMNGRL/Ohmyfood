@@ -167,8 +167,8 @@ h1{
 }
 
 .boutons_fonctionnement i{
-	position: absolute;
-	left: 15%;
+	position: relative;
+	right: 5%;
 	color: grey;
 }
 
@@ -1065,7 +1065,11 @@ h3{
 	object-fit: cover;
 }
 
-@media all and (max-width: 2560px) and (min-width: 1280px){ /*TAILLE DESKTOP*/
+
+
+/*----------------------------TAILLE DESKTOP----------------------------*/
+
+@media all and (max-width: 2560px) and (min-width: 1280px){ 
 
 .loading-spinner{
 	margin-top: 30%;
@@ -1248,12 +1252,12 @@ h1{
 .menu{
 	padding: 2%;
 	border-radius: 25px;
-	width: 30%;
+	width: 50%;
 	height: 700px;
 	margin-top: 0%;
 	position: absolute;
 	top: 18%;
-	left: 33%;
+	left: 24%;
 	overflow-y: scroll;
 }
 
@@ -1287,11 +1291,13 @@ footer li{
 footer i{
 	margin-right: 3%;
 }
-
-
 }
 
-@media all and (max-width: 1280px) and (min-width: 640px){ /*TAILLE DESKTOP*/
+
+
+/*----------------------------TAILLE TABLETTE----------------------------*/
+
+@media all and (max-width: 1280px) and (min-width: 700px){ 
 
 .loading-spinner{
 	margin-top: 30%;
@@ -1412,12 +1418,13 @@ header{
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: unset;
-	grid-column-gap: 75px;
-	grid-row-gap: 75px;
+	grid-column-gap: 30px;
+	grid-row-gap: 30px;
 }
 
 .texte_carte p{
 	font-size: 20px;
+	padding-right: 21%;
 }
 
 .palette_du_gout{
@@ -1475,12 +1482,12 @@ header{
 .menu{
 	padding: 2%;
 	border-radius: 25px;
-	width: 30%;
+	width: 50%;
 	height: 700px;
 	margin-top: 0%;
 	position: absolute;
 	top: 18%;
-	left: 33%;
+	left: 24%;
 	overflow-y: scroll;
 }
 
@@ -1497,19 +1504,21 @@ footer{
 
 footer p{
 	font-size: 30px;
+	margin-top: 0;
 }
 
 footer ul{
 	font-size: 15px;
+	display: flex;
+	align-items: center;
+	margin-top: 5%;
 }
 
 footer li{
-	margin-bottom: 1%;
+	width: 100%;
 }
 
 footer i{
-	margin-right: 0.5%;
+	margin-right: 3%;
 }
-
-
 }
