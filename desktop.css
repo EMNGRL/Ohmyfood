@@ -1,0 +1,223 @@
+@media all and (max-width: 2560px) and (min-width: 1280px){
+
+.loading-spinner{
+	margin-top: 30%;
+}
+
+.rond-1{
+	border-radius: 50px;
+	padding: 1%;
+	margin: 1%;
+}
+
+.rond-2{
+	border-radius: 50px;
+	padding: 1%;
+	margin: 1%;
+}
+
+.rond-3{
+	border-radius: 50px;
+	padding: 1%;
+	margin: 1%;
+}
+
+/*ACCUEIL*/
+
+header{
+	margin: 0 10% 0 10%;
+}
+
+.logo_header{
+	height: 50px;
+}
+
+.localisation{
+	padding: 1.5%;
+}
+
+.icone_localisation{
+	margin-right: 1%;
+}
+
+.exploration{
+	padding : 3%;
+}
+
+.exploration p{
+	font-size: 20px;
+}
+
+h1{
+	font-size: 40px;
+}
+
+.explorer{
+	padding: 1%;
+	border-radius: 45px;
+}
+
+.fonctionnement{
+	margin: 0 10% 0 10%;
+}
+
+.fonctionnement h1{
+	margin-bottom: 4%;
+}
+
+.boutons_fonctionnement{
+	display: flex;
+	align-items: center;
+}
+
+.bouton1{
+	margin: 0 6% 0 0;
+	padding: 3%;
+	width: 60%;
+}
+
+.bouton1 p{
+	padding: 3%;
+	border-radius: 35px;
+	position: absolute;
+	left: -4%;
+}
+
+.bouton2{
+	margin: 0 6% 0 0;
+	padding: 3%;
+	width: 63%;
+}
+
+.bouton2 p{
+	padding: 3%;
+	border-radius: 35px;
+	position: absolute;
+	left: -4%;
+}
+
+.bouton3{
+	margin: 0 6% 0 0;
+	padding: 3%;
+	width: 63%;
+}
+
+.bouton3 p{
+	padding: 3%;
+	border-radius: 35px;
+	position: absolute;
+	left: -4%;
+}
+
+.restaurant h1{
+	margin: 0 0 4% 10%;
+}
+
+.cartes_restaurants{
+	margin: 0 10% 0 10%;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: unset;
+	grid-column-gap: 75px;
+	grid-row-gap: 75px;
+}
+
+.texte_carte p{
+	font-size: 20px;
+}
+
+.palette_du_gout{
+	height: 370px;
+}
+
+.note_enchantee{
+	height: 370px;
+}
+
+.a_la_francaise{
+	height: 370px;
+}
+
+.delice_des_sens{
+	height: 370px;
+}
+
+/*LA PALETTE DU GOUT*/
+.menu_la_palette_du_gout{
+	height: 875px;
+}
+
+.menu_la_palette_du_gout img{
+	height: 875px;
+}
+
+/*LA NOTE ENCHANTEE*/
+.menu_la_note_enchantee{
+	height: 875px;
+}
+
+.menu_la_note_enchantee img{
+	height: 875px;
+}
+
+/*A LA FRANCAISE*/
+.menu_a_la_francaise{
+	height: 875px;
+}
+
+.menu_a_la_francaise img{
+	height: 875px;
+}
+
+/*DELICE DES SENS*/
+.menu_le_delice_des_sens{
+	height: 875px;
+}
+
+.menu_le_delice_des_sens img{
+	height: 875px;
+}
+
+.menu{
+	padding: 2%;
+	border-radius: 25px;
+	width: 50%;
+	height: 700px;
+	margin-top: 0%;
+	position: absolute;
+	top: 18%;
+	left: 24%;
+	overflow-y: scroll;
+}
+
+.commander{
+	padding: 3%;
+	width: 49%;
+	margin: 2% 11% 10% 23%;
+}
+
+footer{
+	padding: 2%;
+	text-align : center;
+}
+
+footer p{
+	font-size: 30px;
+	margin-top: 0;
+}
+
+footer ul{
+	font-size: 15px;
+	display: flex;
+	align-items: center;
+	margin-top: 5%;
+}
+
+footer li{
+	width: 100%;
+}
+
+footer i{
+	margin-right: 3%;
+}
+}

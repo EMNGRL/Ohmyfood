@@ -1,0 +1,11 @@
+:root{
+	--gris: #f6f6f6;
+}
+
+body{
+	width: 100%;
+}
+
+p{
+	font-family: 'roboto';
+}
