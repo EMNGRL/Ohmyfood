@@ -2,7 +2,7 @@
 
 @import "desktop.css";
 
-@import "tablette.css";
+@import "tablette.css" (min-width: 700px) and (max-width: 1280px);
 
 /*LOADING SPINNER*/
 
@@ -12,7 +12,7 @@
 	width: 100%;
 	background-color: rgba(255,255,255,0.8);
 	z-index: 9999;
-	animation: boop 1s ease-in-out 2s forwards;
+	animation: boop ease-in-out 3s forwards;
 	pointer-events: none;
 }
 
@@ -94,7 +94,7 @@ header{
 /*SECTION LOCALISATION*/
 
 .localisation{
-	background-color: #eaeaea;
+	background-color: var(--gris-foncé);
 	height: auto;
 	box-shadow: inset 0 7px 0.3em -5px grey;
 }
@@ -171,11 +171,11 @@ h1{
 }
 
 .boutons_fonctionnement i:hover{
-	color: #9356DC;
+	color: var(--violet);
 }
 
 .bouton1{
-	background-color: #f6f6f6;
+	background-color: var(--gris-clair);
 	border-radius: 20px;
 	padding: 8%;
 	font-family: 'roboto';
@@ -194,11 +194,11 @@ h1{
 }
 
 .bouton1:hover .choisir > .fas{
-	color: #9356DC;
+	color: var(--violet);
 }
 
 .bouton1 p{
-	background-color: #9356DC;
+	background-color: var(--violet);
 	color: white;
 	padding: 2%;
 	border-radius: 25px;
@@ -209,7 +209,7 @@ h1{
 }
 
 .bouton2{
-	background-color: #f6f6f6;
+	background-color: var(--gris-clair);
 	border-radius: 20px;
 	padding: 8%;
 	font-family: 'roboto';
@@ -228,11 +228,11 @@ h1{
 }
 
 .bouton2:hover .composez > .fas{
-	color: #9356DC;
+	color: var(--violet);
 }
 
 .bouton2 p{
-	background-color: #9356DC;
+	background-color: var(--violet);
 	color: white;
 	padding: 2%;
 	border-radius: 25px;
@@ -243,7 +243,7 @@ h1{
 }
 
 .bouton3{
-	background-color: #f6f6f6;
+	background-color: var(--gris-clair);
 	border-radius: 20px;
 	padding: 8%;
 	font-family: 'roboto';
@@ -262,7 +262,7 @@ h1{
 }
 
 .bouton3 p{
-	background-color: #9356DC;
+	background-color: var(--violet);
 	color: white;
 	padding: 2%;
 	border-radius: 25px;
@@ -273,14 +273,14 @@ h1{
 }
 
 .bouton3:hover .degustez > .fas{
-	color: #9356DC;
+	color: var(--violet);
 }
 
 /*SECTION RESTAURANTS*/
 
 .restaurant{
 	padding: 5%;
-	background-color: #f6f6f6;
+	background-color: var(--gris-clair);
 }
 
 .restaurant h1{
@@ -316,11 +316,11 @@ h1{
 }
 
 .palette_du_gout aside{
-	background-color: #99E2D0;
+	background-color: var(--menthe);
 	border-style: none;
 	font-family: 'roboto';
 	font-weight: bold;
-	color: #008766;
+	color: var(--vert-nouveau);
 	padding: 2%;
 	position: absolute;
 	top: 5%;
@@ -344,11 +344,11 @@ h1{
 }
 
 .note_enchantee aside{
-	background-color: #99E2D0;
+	background-color: var(--menthe);
 	border-style: none;
 	font-family: 'roboto';
 	font-weight: bold;
-	color: #008766;
+	color: var(--vert-nouveau);
 	padding: 2%;
 	position: absolute;
 	top: 5%;
@@ -488,7 +488,7 @@ header{
 /*MENU COMPLET*/ 
 
 .menu{
-	background-color: #f6f6f6;
+	background-color: var(--gris-clair);
 	padding: 5%;
 	border-top-right-radius: 25px;
 	border-top-left-radius: 25px;
@@ -510,7 +510,7 @@ h2{
 h3{
 	font-family: 'roboto';
 	font-weight: lighter;
-	border-bottom: 2px solid #99E2D0;
+	border-bottom: 2px solid var(--menthe);
 	width: 13%;
 	padding-bottom: 1%;
 }
@@ -904,7 +904,7 @@ h3{
 
 .ajouter{
 	color: white;
-	background-color: #99E2D0;
+	background-color: var(--menthe);
 	border-top-right-radius: 15px;
 	border-bottom-right-radius: 15px;
 	display: flex;
