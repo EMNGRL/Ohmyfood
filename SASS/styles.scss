@@ -1,5 +1,4 @@
-@import "base.css";
-
+@import "base";
 
 /*LOADING SPINNER*/
 
@@ -31,7 +30,7 @@
 }
 
 .rond-1{
-	background-color: var(--violet);
+	background-color: $violet;
 	padding:3%;
 	border-radius: 25px;
 	margin: 2%;
@@ -39,7 +38,7 @@
 }
 
 .rond-2{
-	background-color: var(--rose);
+	background-color: $rose;
 	padding:3%;
 	border-radius: 25px;
 	margin: 2%;
@@ -48,7 +47,7 @@
 
 
 .rond-3{
-	background-color: var(--menthe);
+	background-color: $menthe;
 	padding:3%;
 	border-radius: 25px;
 	margin: 2%;
@@ -91,7 +90,7 @@ header{
 /*SECTION LOCALISATION*/
 
 .localisation{
-	background-color: var(--gris-foncé);
+	background-color: $gris-fonce;
 	height: auto;
 	box-shadow: inset 0 7px 0.3em -5px grey;
 }
@@ -109,7 +108,7 @@ header{
 /*SECTION EXPLORATION*/
 
 .exploration{
-	background-color: var(--gris);
+	background-color: $gris-clair;
 	padding: 11%;
 	text-align: center;
 }
@@ -131,7 +130,7 @@ h1{
 	padding: 6%;
 	font-family: 'roboto';
 	color: white;
-	background: linear-gradient(#FF79DA, #9356DC);
+	background: linear-gradient($rose,$violet);
 	box-shadow: 2px 2px 8px grey;
 }
 
@@ -168,11 +167,11 @@ h1{
 }
 
 .boutons_fonctionnement i:hover{
-	color: var(--violet);
+	color: $violet;
 }
 
 .bouton1{
-	background-color: var(--gris-clair);
+	background-color: $gris-clair;
 	border-radius: 20px;
 	padding: 8%;
 	font-family: 'roboto';
@@ -191,11 +190,11 @@ h1{
 }
 
 .bouton1:hover .choisir > .fas{
-	color: var(--violet);
+	color: $violet;
 }
 
 .bouton1 p{
-	background-color: var(--violet);
+	background-color: $violet;
 	color: white;
 	padding: 2%;
 	border-radius: 25px;
@@ -206,7 +205,7 @@ h1{
 }
 
 .bouton2{
-	background-color: var(--gris-clair);
+	background-color: $gris-clair;
 	border-radius: 20px;
 	padding: 8%;
 	font-family: 'roboto';
@@ -225,11 +224,11 @@ h1{
 }
 
 .bouton2:hover .composez > .fas{
-	color: var(--violet);
+	color: $violet;
 }
 
 .bouton2 p{
-	background-color: var(--violet);
+	background-color: $violet;
 	color: white;
 	padding: 2%;
 	border-radius: 25px;
@@ -240,7 +239,7 @@ h1{
 }
 
 .bouton3{
-	background-color: var(--gris-clair);
+	background-color: $gris-clair;
 	border-radius: 20px;
 	padding: 8%;
 	font-family: 'roboto';
@@ -259,7 +258,7 @@ h1{
 }
 
 .bouton3 p{
-	background-color: var(--violet);
+	background-color: $violet;
 	color: white;
 	padding: 2%;
 	border-radius: 25px;
@@ -270,14 +269,14 @@ h1{
 }
 
 .bouton3:hover .degustez > .fas{
-	color: var(--violet);
+	color: $violet;
 }
 
 /*SECTION RESTAURANTS*/
 
 .restaurant{
 	padding: 5%;
-	background-color: var(--gris-clair);
+	background-color: $gris-clair;
 }
 
 .restaurant h1{
@@ -313,11 +312,11 @@ h1{
 }
 
 .palette_du_gout aside{
-	background-color: var(--menthe);
+	background-color: $menthe;
 	border-style: none;
 	font-family: 'roboto';
 	font-weight: bold;
-	color: var(--vert-nouveau);
+	color: $vert-nouveau;
 	padding: 2%;
 	position: absolute;
 	top: 5%;
@@ -341,11 +340,11 @@ h1{
 }
 
 .note_enchantee aside{
-	background-color: var(--menthe);
+	background-color: $menthe;
 	border-style: none;
 	font-family: 'roboto';
 	font-weight: bold;
-	color: var(--vert-nouveau);
+	color: $vert-nouveau;
 	padding: 2%;
 	position: absolute;
 	top: 5%;
@@ -414,7 +413,7 @@ h1{
 
 .icone_coeur_plein:hover{
 	opacity: 1;
-	background: linear-gradient(#FF79DA, #9356DC);
+	background: linear-gradient($rose,$violet);
 	-webkit-background-clip: text;
 	color: transparent;
 	transform: scale(1.2);
@@ -425,7 +424,7 @@ h1{
 /*FOOTER*/
 
 footer{
-	background-color: #353535;
+	background-color: $gris-footer;
 	padding: 5%;
 	color: white;
 }
@@ -485,7 +484,7 @@ header{
 /*MENU COMPLET*/ 
 
 .menu{
-	background-color: var(--gris-clair);
+	background-color: $gris-clair;
 	padding: 5%;
 	border-top-right-radius: 25px;
 	border-top-left-radius: 25px;
@@ -507,7 +506,7 @@ h2{
 h3{
 	font-family: 'roboto';
 	font-weight: lighter;
-	border-bottom: 2px solid var(--menthe);
+	border-bottom: 2px solid $menthe;
 	width: 13%;
 	padding-bottom: 1%;
 }
@@ -901,7 +900,7 @@ h3{
 
 .ajouter{
 	color: white;
-	background-color: var(--menthe);
+	background-color: $menthe;
 	border-top-right-radius: 15px;
 	border-bottom-right-radius: 15px;
 	display: flex;
@@ -1025,7 +1024,7 @@ h3{
 	padding: 5%;
 	font-family: 'roboto';
 	color: white;
-	background: linear-gradient(#FF79DA, #9356DC);
+	background: linear-gradient($rose, $violet);
 	box-shadow: 2px 2px 8px -2px grey;
 	width: 80%;
 	margin: 10% 10% 20% 10%;
